@@ -18,9 +18,6 @@ services:
     ports:
       - "3001:3000"
       - "222:22"
-    labels:
-      - wud.tag.include=^\d+$$
-      - wud.watch.digest=true  
     
     depends_on:
       - db
