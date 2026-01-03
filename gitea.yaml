@@ -33,4 +33,4 @@ services:
     volumes:
       - /home/kletson/Docker/gitea/postgres14:/var/lib/postgresql/data
     ports:
-      - "3001:3000"
+      - "5432:5432"
