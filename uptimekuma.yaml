@@ -1,6 +1,6 @@
 services:
   uptime-kuma:
-    image: louislam/uptime-kuma:latest
+    image: louislam/uptime-kuma:2.1.0
     volumes:
       - /home/kletson/appdata/uptimekuma/data:/app/data
     ports:
