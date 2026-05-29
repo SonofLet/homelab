@@ -6,4 +6,6 @@ services:
     ports:
       # <Host Port>:<Container Port>
       - 3001:3001
-    restart: unless-stopped
+    restart: on-failure:3
+    mem_limit: 512m
+    memswap_limit: 512m
